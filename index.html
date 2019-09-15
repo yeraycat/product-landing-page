@@ -20,21 +20,89 @@
     </header>
     <main>
         <section class="email-subscription">
+            <h2>An AI agent that works for you and assists you during development</h2>
             <form id="form" action="https://www.freecodecamp.com/email-submit">
                 <input id="email" type="email" name="email" placeholder="Enter your email address" required />
-                <input id="submit" type="submit" value="Know more about the product" />
+                <input id="submit" class="btn" type="submit" value="Know more about the product" />
             </form>
         </section>
         <section id="product-features">
-            <p>What the coder agents can do for you:</p>
+            <h2>What the coder agents can do for you...</h2>
             <ul>
+                <li>Assist you while coding (acting as another dev on pair programming)</li>
+                <li>Execute manual tests as they were automatic (they should be well defined)</li>
+                <li>Help you estimate task difficulty and cost</li>
                 <li>Find bugs that only happen at runtime</li>
+                <li>Generate HTML templates and styles using an image (wireframe, drawn mockup) as reference</li>
+                <li>Lint any programming language</li>
+                <li>Suggest refactors for performance improvement</li>
+                <li>Suggest refactors for development velocity improvement</li>
+                <li>Generate deployment scripts based on simple instructions</li>
+                <li>Much more...</li>
             </ul>
         </section>
-        <section id="product-video" class="product-video">
+        <section id="product-video">
+            <h2>Watch our agents in action!</h2>
             <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/0kBi8P6a7Jk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
-        <section id="product-prices"></section>
+        <section id="product-prices">
+            <h2>Pricing</h2>
+            <div class="cards-container">
+                <div class="price-card">
+                    <h3 class="price-card__title">Wall-E</h3>
+                    <div class="price-card__price">$89.99 / month</div>
+                    <div class="price-card__features">
+                        <ul>
+                            <li>Single-user license</li>
+                            <li>9000 minutes of usage</li>
+                            <li>$0.05/minute after monthly limit</li>
+                            <li>Pair programming & Linting features</li>
+                            <li>Task estimation features</li>
+                            <li>Performance improvement features</li>
+                            <li>Scripts generation features</li>
+                            <li>Bug finding features</li>
+                        </ul>
+                    </div>
+                    <button class="btn price-card__cta">Select</button>
+                </div>
+                <div class="price-card">
+                    <h3 class="price-card__title">Bender</h3>
+                    <div class="price-card__price">$859.99 / month</div>
+                    <div class="price-card__features">
+                        <ul>
+                            <li>Single-user license</li>
+                            <li>43k minutes of usage</li>
+                            <li>$0.10/minute after monthly limit</li>
+                            <li>All the features from Wall-E package plus...</li>
+                            <li>Manual testing features</li>
+                            <li>Template generation features</li>
+                            <li>Development velocity improvement features</li>
+                        </ul>
+                    </div>
+                    <button class="btn price-card__cta">Select</button>
+                </div>
+                <div class="price-card">
+                    <h3 class="price-card__title">Skynet</h3>
+                    <div class="price-card__price">$11k / month</div>
+                    <div class="price-card__features">
+                        <ul>
+                            <li>Unlimited users license</li>
+                            <li>Unlimited usage time</li>
+                            <li>All the features from Wall-E & Bender packages plus...</li>
+                            <li>API generation features</li>
+                            <li>Database generation features</li>
+                            <li>Auto TDD features</li>
+                            <li>Bug auto-fixing features</li>
+                            <li>Component generation features</li>
+                            <li>Learning by monitoring features</li>
+                        </u>
+                    </div>
+                    <button class="btn price-card__cta">Select</button>
+                </div>
+                
+            </div>
+            
+        </section>
     </main>
     <footer>
         Copyright 2019, AI Trainers Inc
