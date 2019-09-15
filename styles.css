@@ -134,7 +134,7 @@ footer {
 .cards-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
@@ -149,10 +149,10 @@ footer {
     flex-direction: column;
     min-width: 300px;
     max-width: 30%;
-    min-height: 500px;
+    min-height: 600px;
     border-radius: 4px;
     border: 1px solid #769B92;
-    padding: 16px;
+    padding: 16px 0;
 }
 
 .price-card .price-card__title {
@@ -162,6 +162,10 @@ footer {
 .price-card .price-card__price {
     text-align: center;
     font-size: 22px;
+    width: 100%;
+    background-color: #769B92;
+    color: #EBECDF;
+    padding: 11px;
 }
 
 .price-card .price-card__features {
@@ -171,6 +175,7 @@ footer {
 }
 
 .price-card__cta {
-    margin-top: auto;
+    margin: auto;
     margin-bottom: 0;
+    width: 80%;
 }
